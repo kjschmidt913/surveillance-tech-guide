@@ -1,0 +1,11 @@
+.surv-tech-header {
+    background: url('https://img.securityinfowatch.com/files/base/cygnus/siw/image/2018/02/iStock_680424786.5a79dcd0ad2f6.png?auto=format&dpr=2&w=720') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+h1 {
+    text-shadow: 2px 2px #000000;
+}
