@@ -56,10 +56,11 @@
     <section class="mx-auto mt-5 col-8">
         <h3>How could this wrongful arrest happen? <small class="text-muted d-block">Surveillance technology.</small>
         </h3>
-        <p>Surveillance technology takes many forms- </p>
+        <p>Surveillance technology takes many forms. From collecting visual, audio, textual, biometric, or location data, there are many ways we interact with technology that has the capability of surveilling us. In the case discussed above in Detroit, this
+            initiative is called Project Green Light. </p>
         <!-- need a lil something about this tech generally. just like 3 sentences as an intro -->
         <h4>Project Green Light</h4>
-        <p><a href="https://detroitmi.gov/departments/police-department/project-green-light-detroit" target="blank">Project Green Light</a>is a community policing effort in the city of Detroit, Michigan. Cameras are installed throughout the city at designated
+        <p><a href="https://detroitmi.gov/departments/police-department/project-green-light-detroit" target="blank">Project Green Light</a> is a community policing effort in the city of Detroit, Michigan. Cameras are installed throughout the city at designated
             locations and have a direct feed to the Detroit Police. This system has been marketed to the citizens of Detroit as a way to prevent crime.</p>
         <p>Project Green Light partners with local businesses to set up cameras at their locations with accompanying Project Green Light signs. The cameras allow the Detroit Police Department to have a live stream of the city from many different viewpoints,
             and in turn, offer the businesses extra support from the police and a potential crime deterrent with the branded sign. Police <a href="http://video.detroitmi.gov/CablecastPublicSite/show/5963?channel=3." target="blank">“virtually patrol”</a>            each affiliated location once a day and physically patrol around <a href="https://detroitmi.gov/webapp/project-green-light-map" target="blank">184 affiliated locations</a> each day.</p>
@@ -72,13 +73,18 @@
         <p>These systems especially fail at correctly identifying people of color, and specifically Black people, which is not ideal in a city whose population is approximately 80% Black. The FR technology is likely to misidentify the majority of people
             whose images are captured in the Project Green Light surveillance footage leading to false charges and arrests, making people of color in Detroit most affected by this technology.</p>
         <h5>How FR Tech Works</h5>
-        <p>FR tech works by learning highly individualized traits from a large collection of face photos. Such traits can range from the distances between so-called "face landmarks" — e.g. eyes, nose, mouth — to extremely subtle traits expressed on a handful of pixels that, in theory, distinguish one person from all others.</p>
-        <p><b>Try it yourself:</b> below you have a webcam-based face tracking software that works within your browser window. If you allow this page to access your webcam, you may see how it tracks your face with a bounding box. By checking the option "Detect Face Landmarks" you can see how it detects the specific traces of your mouth, nose, eyes and eyebrows, as well as the contour of your face.</p>
+        <p>FR tech works by learning highly individualized traits from a large collection of face photos. Such traits can range from the distances between so-called "face landmarks" — e.g. eyes, nose, mouth — to extremely subtle traits expressed on a handful
+            of pixels that, in theory, distinguish one person from all others.</p>
+        <p><b>Try it yourself:</b> below you have a webcam-based face tracking software that works within your browser window. If you allow this page to access your webcam, you may see how it tracks your face with a bounding box. By checking the option "Detect
+            Face Landmarks" you can see how it detects the specific traces of your mouth, nose, eyes and eyebrows, as well as the contour of your face.</p>
         <iframe src="https://justadudewhohacks.github.io/face-api.js/webcam_face_tracking" allow="camera https://justadudewhohacks.github.io/" style="height:90%;width:50%;" title="Interactive face tracking"></iframe>
-        <p>To identify a specific person, FR tech relies on labeled photos. The more photos of an individual, the more accurate is the software. For this reason, uploading labeled photos — or entire albums — to social media substantially improves computers' ability to identify specific individuals. For the same reason, the use of a single photo such as the one in a driver's license can lead to inaccurate matches.</p>
-        <p>It's worthy of note that FR tech has benefited tremendously from recent advances in an area of Machine Learning called "Computer Vision" where computers are taught to recognize real-world entities, more generally, within images. Below we can see how much progress has been made on object detection in ImageNet, the most traditional open data set used by the Computer Vision community.</p>
-        <img src='https://github.com/kjschmidt913/surveillance-tech-guide/blob/master/images/cv_progress.png?raw=true' width='320px' height='320px'/>
-        <p>In 2011, algorithms would miss 25% of objects in ImageNet; four year later, in 2015, this error rate would go below 5%, which is how humans perform in this task. This period coincides with the emergence of Deep Learning, a branch of Machine Learning that leverages ever greater computing resources and larger data sets to train increasingly accurate models — so long as the data is sufficiently accurate (!).</p>
+        <p>To identify a specific person, FR tech relies on labeled photos. The more photos of an individual, the more accurate is the software. For this reason, uploading labeled photos — or entire albums — to social media substantially improves computers'
+            ability to identify specific individuals. For the same reason, the use of a single photo such as the one in a driver's license can lead to inaccurate matches.</p>
+        <p>It's worthy of note that FR tech has benefited tremendously from recent advances in an area of Machine Learning called "Computer Vision" where computers are taught to recognize real-world entities, more generally, within images. Below we can see
+            how much progress has been made on object detection in ImageNet, the most traditional open data set used by the Computer Vision community.</p>
+        <img src='https://github.com/kjschmidt913/surveillance-tech-guide/blob/master/images/cv_progress.png?raw=true' width='320px' height='320px' />
+        <p>In 2011, algorithms would miss 25% of objects in ImageNet; four year later, in 2015, this error rate would go below 5%, which is how humans perform in this task. This period coincides with the emergence of Deep Learning, a branch of Machine Learning
+            that leverages ever greater computing resources and larger data sets to train increasingly accurate models — so long as the data is sufficiently accurate (!).</p>
         <p>The FR you just tried above is a product of Deep Learning. It was trained on over 14,000 photos manually labeled with bounding boxes and the resulting model is only 190KBs.</p>
 
     </section>
