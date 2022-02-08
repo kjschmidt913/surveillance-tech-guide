@@ -24,3 +24,11 @@ are close to us and our communities
 - An understanding of where legal regulations exist for this technology
 - Actions that readers can personally take to fight this technology
 
+# Acknowledgments
+This learning module was created by graduate students at Northwestern University. If you have any questions or feedback, please feel free to reach out to us:
+
+[Aristana Scourtas](https://www.linkedin.com/in/aristana/)
+
+[KJ Schmidt](https://www.linkedin.com/in/schmidtkj/)
+
+[Victor Bursztyn](https://www.linkedin.com/in/victor-s-bursztyn-6bb78026/)
